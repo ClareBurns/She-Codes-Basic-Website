@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather in Tokyo</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #1a64d6;
+        font-size: 34px;
+        line-height: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 34px;
+        line-height: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        margin: 0;
+      }
+
+      .temp-max {
+        font-weight: bold;
+      }
+
+      ul {
+        list-style-type: none;
+        padding: 0px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      li {
+        font-size: 18px;
+        transition: all 200ms ease-in-out;
+        margin: 0px auto;
+        max-width: 400px;
+        padding: 10px 0;
+      }
+
+      li:hover {
+        background: #fffbef;
+        border-radius: 10px;
+      }
+
+      h3 {
+        font-weight: bold;
+      }
+      .temperature {
+        opacity: 0.7;
+        font-family: monospace;
+        padding: 10px 0;
+      }
+      button {
+        color: white;
+        background: #1a64d6;
+        display: block;
+        margin: 20px auto;
+        padding: 16px 24px;
+        border-radius: 30px;
+        border: 1px Solid #1a64d6;
+        font-size: 16px;
+        box-shadow: 5px 5px 10px rgba(32, 31, 31, 0.3);
+        transition: all 200ms ease-in-out;
+        cursor: pointer;
+        line-height: 22px;
+      }
+
+      button:hover {
+        background: white;
+        color: #1a64d6;
+        border: 1px Solid #1a64d6;
+      }
+
+      .author-statement {
+        text-align: center;
+        color: grey;
+        font-family: monospace;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>
+      13° /
+      <span class="temp-max">23°</span>
+    </h2>
+    <ul>
+      <li>
+        <h3>🌧Tomorrow</h3>
+        <div class="temperature">10° / <span class="temp-max">22°</span></div>
+      </li>
+      <li>
+        <h3>🌥Saturday</h3>
+        <div class="temperature">15° / <span class="temp-max">17°</span></div>
+      </li>
+      <li>
+        <h3>☀Sunday</h3>
+        <div class="temperature">25° / <span class="temp-max">28°</span></div>
+      </li>
+    </ul>
+    <button>Change city</button>
+
+    <div class="author-statement">Coded by Clare Burns</div>
+  </body>
+</html>
