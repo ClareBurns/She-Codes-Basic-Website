@@ -1,1 +1,1 @@
-# She-Codes-Basic-Website
+# She-Codes-Basic-Course
